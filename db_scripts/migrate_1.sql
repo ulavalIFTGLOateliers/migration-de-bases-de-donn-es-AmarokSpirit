@@ -17,12 +17,6 @@ ALTER TABLE musician
 ALTER TABLE musician
     ADD role VARCHAR(50),
     ADD bandName VARCHAR(50);
--- UPDATE musician
---     SET column1 = 'vocals',
---         column2 = 'guitar',
---         column3 = 'percussion',
---         column4 = 'piano',
---     WHERE musicianName IN ('Alina', 'Mysterio', 'Rainbow', 'Luna');
 UPDATE musician
     SET role = 'vocals',
         bandName = 'Crazy Duo'
